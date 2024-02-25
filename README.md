@@ -1,6 +1,8 @@
 
 # Knowledge Graph Construction with More Semantics And Less Code
 
+## [SWAT4HCLS 2024 Tutorial](https://swat4hcls.org)
+
 ## Introduction
 
 Research generates a massive amount of data on a daily basis. In contrast, a knowledge graph is a
