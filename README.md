@@ -68,11 +68,9 @@ If neither of the previous commands showed the version of Docker Compose, then y
 
 
 1. For linux users (probably Mac users too, though not tested on Mac), once you are inside the folder in terminal, run the following command (enter your password when requested):
-
 ```bash
 sudo chown 5987:5987 -R data-output/
 ```
-
 This command will make sure LinkedPipes ETL has the permission to write output files to this folder.
 
 
