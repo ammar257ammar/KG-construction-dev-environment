@@ -9,6 +9,8 @@ between its entities. Large volumes of data can greatly benefit from knowledge g
 data organization and facilitate efficient searching and querying. Linked data, the basis of the semantic
 web, represents a valuable design approach to construct knowledge graphs, as it not only embraces open
 standards but also contributes to data FAIRness.
+
+
 To go from datasets in common formats to linked data knowledge graphs, a series of steps (i.e.
 workflow) need to be performed, called an ETL workflow (Extract, Transform, Load). Moreover, different
 technical skills are needed to carry on this process. For example, knowing how to read, parse and
@@ -17,6 +19,8 @@ the programming skills to transform and convert the data into linked data (i.e t
 the technical knowledge of triple stores to store and query the knowledge graph (i.e load). Therefore,
 the steep learning curve and the diverse set of coding skills and tools to create knowledge graphs pose a
 major barrier to the wider adoption of such an approach by the scientific community.
+
+
 To address this challenge, this tutorial will walk the reader through the process of constructing
 semantic knowledge graphs from scratch using LinkedPipes ETL. LinkedPipes is a browser-based tool
 that provides a visual, drag-and-drop interface for creating ETL workflows that integrate heterogeneous
@@ -40,9 +44,7 @@ and modeling.
 ### Requirements
 
 1. In order to get started with this tutorial, you need a ready docker installation on your machine.
-
 Follow the Docker installation instructions relevant to your operating system through the official Docker website:
-
 [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
 
 1. You will also need Docker Compose to be install. Depending on your operating system and Docker installtion, you may already have Docker Compose installed. You can check that by run either the following commands:
@@ -92,7 +94,7 @@ docker compose up -d
 ## Have Fun!!
 
 
-Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+[![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
