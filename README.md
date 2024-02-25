@@ -1,5 +1,5 @@
 
-# Knowledge Graph Construction with More Semantics And Less Code
+# Constructing life sciences knowledge graphs with more semantics and less code
 
 ## [SWAT4HCLS 2024 Tutorial](https://www.swat4ls.org/)
 
