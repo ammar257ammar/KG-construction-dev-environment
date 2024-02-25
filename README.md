@@ -75,7 +75,7 @@ sudo chown 5987:5987 -R data-output/
 ```
 This command will make sure LinkedPipes ETL has the permission to write output files to this folder.
 
-1. Run one of the following command (depending on which command worked for you in the last step of the requirements section
+3. Run one of the following command (depending on which command worked for you in the last step of the requirements section
 
 ```bash
 docker-compose up -d
