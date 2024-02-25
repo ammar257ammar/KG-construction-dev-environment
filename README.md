@@ -88,8 +88,13 @@ docker compose up -d
 
 
 
-## Have Fun!!
+### Have Fun!!
 
+
+## Acknowledgment
+
+This work is funded by the eScience Center Fellowship, awarded to the main facilitator of the tutorial: Ammar Ammar
+[https://www.esciencecenter.nl/fellowship-programme/ammar-ammar/](https://www.esciencecenter.nl/fellowship-programme/ammar-ammar/)
 
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
