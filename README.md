@@ -1,7 +1,7 @@
 
 # Knowledge Graph Construction with More Semantics And Less Code
 
-## [SWAT4HCLS 2024 Tutorial](https://swat4hcls.org)
+## [SWAT4HCLS 2024 Tutorial](https://www.swat4ls.org/)
 
 ## Introduction
 
