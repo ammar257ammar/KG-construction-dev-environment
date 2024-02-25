@@ -1,0 +1,12 @@
+rownum,material,core_size,hydro_size,surf_charge,specific_surf_area,Hsf,Ec,Ev,MeO,assay,cell_line,cell_species,cell_origin,cell_type,time,dose,viability,toxicity
+001,Al2O3,39.7,267,36.3,64.7,-17.345,-1.51,-9.81,5.67,MTT,HCMEC,Human,Blood,Normal,12,100,91.0345,nonToxic
+002,CuO,46.3,239,42.8,24.1,-1.609,-5.17,-6.51,5.87,MTT,HCMEC,Human,Blood,Normal,24,20,15.2062,Toxic
+003,Fe2O3,42.5,957,-8.2,82.8,-8.512,-4.99,-6.99,5.98,MTT,HCMEC,Human,Blood,Normal,12,20,98.7013,nonToxic
+004,Fe3O4,10,80,-35,110,-11.59,-5,-6.85,5.78,Alamar_blue,A549,Human,Lung,Cancer,72,1,95,nonToxic
+005,Fe3O4,46.8,1025,1.7,147.4,-11.59,-5,-6.85,5.78,MTT,HCMEC,Human,Blood,Normal,24,0.001,99.4819,nonToxic
+006,SiO2,33.5,120,-47.6,576.23,-9.41,-2.02,-11.12,6.19,MTT,MeT_5A,Human,Mesothelium,Normal,24,100,67.8715,nonToxic
+007,SiO2,33.5,120,-47.6,576.23,-9.41,-2.02,-11.12,6.19,MTT,A549,Human,Lung,Cancer,24,25,105.2209,nonToxic
+008,TiO2,25,504.5,-10.7,210,-9.779,-4.16,-7.49,5.77,NRU,SH_SY5Y,Human,Bone,Cancer,24,0,100,nonToxic
+009,TiO2,25,504.5,-10.7,210,-9.779,-4.16,-7.49,5.77,MTT,SH_SY5Y,Human,Bone,Cancer,24,80,85.4237,nonToxic
+010,TiO2,34.1,400,-12,48.9,-9.779,-4.16,-7.49,5.77,MTT,V79_4,Hamster,Lung,Normal,48,100,45.5224,Toxic
+011,ZnO,45.3,310,32.7,21.3,-3.608,-3.89,-7.2,5.67,MTT,HCMEC,Human,Blood,Normal,24,1,97.9275,nonToxic

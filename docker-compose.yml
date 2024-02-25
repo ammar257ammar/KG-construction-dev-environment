@@ -1,0 +1,71 @@
+version: "3"
+services:
+  storage:
+    image: ghcr.io/linkedpipes/etl-storage:${LP_VERSION-main}
+    volumes:
+      - data-storage:/data/lp-etl/storage
+      - configuration:/data/lp-etl/configuration
+      - data-logs:/data/lp-etl/logs
+    environment:
+      - LP_ETL_DOMAIN
+    restart: always
+  frontend:
+    image: ghcr.io/linkedpipes/etl-frontend:${LP_VERSION-main}
+    volumes:
+      - configuration:/data/lp-etl/configuration
+      - data-logs:/data/lp-etl/logs
+    ports:
+      - ${LP_ETL_PORT-8080}:8080
+    environment:
+      - LP_ETL_DOMAIN
+    restart: always
+  executor-monitor:
+    image: ghcr.io/linkedpipes/etl-executor-monitor:${LP_VERSION-main}
+    volumes:
+      - data-execution:/data/lp-etl/executor
+      - data-logs:/data/lp-etl/logs
+      - configuration:/data/lp-etl/configuration
+      - ./data-output:/output
+    environment:
+      - LP_ETL_DOMAIN
+    restart: always
+  executor:
+    image: ghcr.io/linkedpipes/etl-executor:${LP_VERSION-main}
+    volumes:
+      - data-execution:/data/lp-etl/executor
+      - data-logs:/data/lp-etl/logs
+      - configuration:/data/lp-etl/configuration
+      - ./data-output:/output
+    environment:
+      - LP_ETL_DOMAIN
+    restart: always
+  virtuoso:
+    image: openlink/virtuoso-opensource-7:7.2.11
+    restart: always
+    container_name: virtuoso
+    volumes:
+      - virtuoso-db:/database
+    environment:
+      - DBA_PASSWORD=dba
+      - SPARQL_UPDATE=true
+    ports:
+      - "8899:8890"
+      - "1133:1111"
+  snorql:
+    image: aammar/snorql-httpd:latest
+    restart: always
+    container_name: snorql
+    environment:
+      - SNORQL_ENDPOINT=http://localhost:8899/sparql
+      - SNORQL_EXAMPLES_REPO=https://github.com/BiGCAT-UM/ChEMBL-SPARQL-Queries
+      - SNORQL_TITLE=SWAT4HCLS\ Tutorial\ on\ Knowledge\ Graph\ Construction
+    ports:
+      - "8088:80"
+      - "4430:443"
+volumes:
+  data-logs:
+  data-execution:
+  data-storage:
+  configuration:
+  virtuoso-db:
+
