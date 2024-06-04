@@ -1,7 +1,5 @@
 
-# Constructing life sciences knowledge graphs with more semantics and less code
-
-## Development Environment Repository
+# Development Environment For Training Materials: Constructing life sciences knowledge graphs with more semantics and less code
 
 ## Introduction
 
