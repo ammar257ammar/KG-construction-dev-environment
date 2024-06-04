@@ -3,7 +3,7 @@ message: "If you use this software, please cite it as below."
 authors:
 - family-names: Ammar
   given-names: Ammar
-orcid: https://orcid.org/0000-0002-8399-8990
-title: Development Environment For Training Materials: Constructing life sciences knowledge graphs with more semantics and less code
+  orcid: https://orcid.org/0000-0002-8399-8990
+title: "Development Environment For Training Materials: Constructing life sciences knowledge graphs with more semantics and less code"
 version: 1.0
 date-released: 2024-02-25
