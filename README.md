@@ -1,6 +1,8 @@
 
 # Development Environment For Training Materials: Constructing life sciences knowledge graphs with more semantics and less code
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.11479653.svg)](https://doi.org/10.5281/zenodo.11479653)
+
 ## Introduction
 
 Research generates a massive amount of data on a daily basis. In contrast, a knowledge graph is a
