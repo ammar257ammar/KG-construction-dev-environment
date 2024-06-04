@@ -1,7 +1,7 @@
 
 # Constructing life sciences knowledge graphs with more semantics and less code
 
-## [SWAT4HCLS 2024 Tutorial](https://www.swat4ls.org/)
+## [SWAT4HCLS 2024 Tutorial](https://doi.org/10.5281/zenodo.10953149)
 
 ## Introduction
 
